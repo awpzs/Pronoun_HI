@@ -195,7 +195,7 @@ Template(
                 .settings.center()
                 .print()
             ,
-            newText("sentence", variable.context)
+            newText("sentence", variable.Hindi)
                 .settings.center()
                 .bold()
                 .print()
@@ -247,7 +247,7 @@ Template(
   .log( "GenderCongruence" , variable.gender )
 //  .log( "CompetitorNumber", variable.comp_number )
 //  .log( "CompetitorAnimacy" , variable.comp1_animacy )
-//  .log( "Sentence"  , variable.context )
+  .log( "Sentence"  , variable.Hindi )
   )
 
 newTrial("exp_start",
@@ -277,7 +277,7 @@ Template(
                 .settings.center()
                 .print()
             ,
-            newText("sentence", variable.context)
+            newText("sentence", variable.Hindi)
                 .settings.center()
                 .bold()
                 .print()
@@ -318,7 +318,7 @@ Template(
   .log( "GenderCongruence" , variable.gender )
 //  .log( "CompetitorNumber", variable.comp_number )
 //  .log( "CompetitorAnimacy" , variable.comp1_animacy )
-//  .log( "Sentence"  , variable.context )
+  .log( "Sentence"  , variable.Hindi )
   )
   
 
@@ -348,7 +348,7 @@ Template(
                 .settings.center()
                 .print()
             ,
-            newText("sentence", variable.context)
+            newText("sentence", variable.Hindi)
                 .settings.center()
                 .bold()
                 .print()
@@ -389,7 +389,7 @@ Template(
 //  .log( "GenderCongruence" , variable.gender )
 //  .log( "CompetitorNumber", variable.comp_number )
 //  .log( "CompetitorAnimacy" , variable.comp1_animacy )
-  .log( "Sentence"  , variable.context )
+  .log( "Sentence"  , variable.Hindi )
   )
 
 SendResults( "send" )
